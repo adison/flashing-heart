@@ -1,0 +1,28 @@
+{
+    "name": "Flashing Heart",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-kitronik-lampbit": "github:kitronikltd/pxt-kitronik-lampbit#V1.0.6",
+        "pxt-kitronik-stopbit": "github:kitronikltd/pxt-kitronik-stopbit#v1.1.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.40",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
